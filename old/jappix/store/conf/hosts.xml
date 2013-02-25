@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<jappix xmlns="jappix:conf:hosts">
+	<main>noho.st</main>
+	<muc>muc.noho.st</muc>
+	<pubsub>pubsub.noho.st</pubsub>
+	<vjud>vjud.noho.st</vjud>
+	<anonymous>anonymous.noho.st</anonymous>
+	<bosh>http://apps.noho.st:5280/http-bind</bosh>
+	<bosh_main></bosh_main>
+	<bosh_mini></bosh_mini>
+	<static></static>
+	<upload></upload>
+</jappix>
