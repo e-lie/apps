@@ -1,0 +1,64 @@
+@import "yunohost";
+
+/* YunoSite specific */
+
+div#container {
+    background: $whaite;
+    div.whitebox.stroked {
+        margin-top: 20px;
+        p {
+            margin-top: 20px;
+        }
+    }
+    @media screen and (min-width: 790px) {
+        p.epic {
+            padding-left: 20px;
+        }
+        div.triplette {
+            div.large-4:first-child {
+                padding-left: 0;
+            }
+            div.large-4:last-child {
+                padding-right: 0;
+            }
+        }
+    }
+}
+
+
+nav.top-bar {
+    div.top-bar-section {
+        ul {
+            li a.button {
+                margin-top: 0;
+                margin-right: 0;
+            }
+            li a.button:active {
+                box-shadow: none;
+                margin-top: 0;
+                margin-right: 0;
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+#top-bar-container {
+    border-bottom: 3px solid #222;
+}
+
+.reveal-modal {
+    border: 3px solid #222;
+    box-shadow: none;
+}
+
+iframe {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; width: 100%; height: 100%;
+    border: none; padding-top: 41px;
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
